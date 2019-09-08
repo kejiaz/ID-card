@@ -1,0 +1,95 @@
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(rgba(80, 102, 27, 0.75),
+      rgba(22, 0, 88, 0.85)),
+    url('./blackbackground.jpg') no-repeat center center;
+    background-size: 120vw auto;
+    font-family: 'Lobster', cursive;
+}
+
+h1{
+    font-size: 20px;
+    margin:5px;
+    
+}
+.title {
+   color: blue; 
+
+}
+
+.sign{
+    color:white;
+}
+.blue{
+    color:blue;
+}
+
+.name{
+    font-size:22px;
+}
+
+.card{
+    background-color: rgb(189, 190, 250);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+    width: 400px;
+    height: 230px;
+    border-radius: 20px;
+
+}
+
+.root{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content{
+    display: flex;
+   
+}
+
+.card-text{
+    width:60%;
+    padding-left: 10px;
+    margin-top:20px;
+}
+
+.card-text>p{
+    margin:0 0 5px 0;
+}
+
+.card-image{
+    width:30%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+
+}
+
+.card-image>img{
+    width:80%;
+    border-radius: 20px;
+
+}
+
+.card-hearder{
+    display:flex;
+    justify-content:center;
+    height:auto;
+    align-items:center;
+}
+
+.card-hearder>img{
+    width: 30px;
+    height:30px;
+}
